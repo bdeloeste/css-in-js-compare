@@ -1,6 +1,8 @@
 # css-in-js-compare
 A chat app implemented with two different styling methods: CSS + BEM &amp; JSS
 
+Created with [create-react-app](https://github.com/facebook/create-react-app)
+
 # With CSS + BEM
 
 ![withcss](https://user-images.githubusercontent.com/5204249/49178291-65a95f00-f31d-11e8-9cfd-6f0037e11977.JPG)
