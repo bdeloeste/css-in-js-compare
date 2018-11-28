@@ -1,0 +1,17 @@
+.chatbox {
+  flex: 1 1 0;
+  order: 1;
+}
+
+.chatbox__scrollable-container {
+  display: flex;
+  flex-direction: column-reverse;
+  height: calc(100% - 62px);
+  width: 100%;
+  position: absolute;
+  overflow: auto;
+}
+
+.chatbox__messages {
+  margin: 10px;
+}

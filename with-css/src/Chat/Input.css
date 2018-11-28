@@ -1,0 +1,23 @@
+.input {
+  background-color: #efefef;
+  display: flex;
+  min-height: 62px;
+  order: 2;
+  box-sizing: border-box;
+  padding: 5px 10px;
+}
+
+.input__text {
+  background-color: white;
+  border-color: white;
+  border-radius: 21px;
+  border-style: solid;
+  padding: 9px 12px;
+  outline: none;
+  margin: 5px 10px;
+  width: 100%;
+}
+
+.input__text::placeholder {
+  color: #a4a4a4;
+}
