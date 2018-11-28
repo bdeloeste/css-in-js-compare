@@ -28,7 +28,6 @@ class Chat extends Component {
     const { messages, value } = this.state;
     if (e.keyCode === 13 && value.length > 0) {
       messages.push(value);
-      console.log(messages);
       this.setState({ messages, value: "" });
     }
   };
