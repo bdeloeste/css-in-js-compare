@@ -3,3 +3,11 @@
   height: 100%;
   width: 100%;
 }
+
+.app--primary {
+  background: #d2e3fc;
+}
+
+.app--secondary {
+  background: #ceead6;
+}

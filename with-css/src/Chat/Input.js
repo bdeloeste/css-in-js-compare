@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Switch from "./Switch";
 import "./Input.css";
 
 export default class Input extends Component {
@@ -13,6 +14,7 @@ export default class Input extends Component {
           placeholder="Made with️ 💖 by CSS"
           value={value}
         />
+        <Switch />
       </footer>
     );
   }
