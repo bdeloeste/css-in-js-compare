@@ -1,21 +1,21 @@
 import React, { Component } from "react";
 import injectSheet from "react-jss";
 
-const styles = {
+const styles = theme => ({
   root: {
     margin: "16px 0 0",
     display: "flex"
   },
   message: {
-    backgroundColor: "#d2e3fc",
+    backgroundColor: theme.color.light,
     boxSizing: "border-box",
     padding: "10px 12px",
-    color: "#174ea6",
+    color: theme.color.dark,
     maxWidth: "calc(70% - 40px)",
     borderRadius: "24px",
     wordWrap: "break-word"
   }
-};
+});
 
 class Message extends Component {
   render() {

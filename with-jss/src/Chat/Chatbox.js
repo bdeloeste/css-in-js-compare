@@ -4,6 +4,7 @@ import Message from "./Message";
 
 const styles = {
   root: {
+    backgroundColor: "white",
     flex: "1 1 0",
     order: 1
   },

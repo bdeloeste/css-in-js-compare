@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import injectSheet from "react-jss";
+import Switch from "./Switch";
 
 const styles = {
   root: {
@@ -37,6 +38,7 @@ class Input extends Component {
           placeholder="Made with️ 💖 by JSS"
           value={value}
         />
+        <Switch />
       </footer>
     );
   }
