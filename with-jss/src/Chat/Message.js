@@ -3,7 +3,7 @@ import injectSheet from "react-jss";
 
 const styles = theme => ({
   root: {
-    margin: "16px 0 0",
+    margin: "14px 0 0",
     display: "flex"
   },
   message: {
